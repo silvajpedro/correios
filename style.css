@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #ffcf00;
+    height: 20vh;
+    width: 100%;
+}
+header img{
+    height:25vh ;
+}
+nav{
+    display:flex;
+    align-items:center;
+    width: 48vw;
+    /* border: solid; */
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 40vw;
+    font-family:"Noto Sans", sans-serif ;
+    font-weight: bold;
+}
+li{
+    font-size: 30px;
+    cursor: grab;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+form{
+    display: flex;
+    justify-content: center;
+    background-color: #F4B418;
+    width: 50vw;
+    height: 58vh;
+    border-radius:20px ;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height:10vh;
+    /* border: solid purple; */
+    width:28vw;
+}
+label{
+    font-size: 25px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+}
+input{
+    width: 20vw;
+    height: 5vh;
+    background-color: transparent;
+    border:solid 1px ;
+}
+input:focus{
+outline: none;
+}
+h2{
+    font-family: "Noto Sans", sans-serif;
+}
+input::placeholder{
+    font-size: 20px;
+    color: #E2D8C1;
+    font-weight: bolder;
+}
+.thirdDivMain{
+    width: 38vw;
+}
+.thirdDivMain label{
+    font-size: 16px;
+}
+.thirdDivMain input{
+    height: 2.5vh;
+}
